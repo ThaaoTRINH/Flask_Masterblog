@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "author": "Cheryl Tran",
+        "title": "The first post",
+        "content": "The school year is end of June!"
+    },
+    {
+        "id": 2,
+        "author": "Thach Thao",
+        "title": "The another post",
+        "content": "I love shopping, l like hanging out this Saturday!"
+    },
+    {
+        "id": 3,
+        "author": "Tran Gia Huy",
+        "title": "Daily post",
+        "content": "He loves playing lego!"
+    },
+    {
+        "id": 4,
+        "author": "Tommy Tran",
+        "title": "lego Minecraft",
+        "content": "Book #21165"
+    },
+    {
+        "id": 5,
+        "author": "Tran Dien Ngan",
+        "title": "His exercise",
+        "content": "He bikes every morning!"
+    }
+]
