@@ -3,30 +3,40 @@
         "id": 1,
         "author": "Cheryl Tran",
         "title": "The first post",
-        "content": "The school year is end of June!"
+        "content": "The school year is end of June!",
+        "count": 2,
+        "star_class": "red"
     },
     {
         "id": 2,
         "author": "Thach Thao",
         "title": "The another post",
-        "content": "I love shopping, l like hanging out this Saturday!"
+        "content": "I love shopping, l like hanging out this Saturday!",
+        "count": 0,
+        "star_class": ""
     },
     {
         "id": 3,
         "author": "Tran Gia Huy",
         "title": "Daily post",
-        "content": "He loves playing lego!"
+        "content": "He loves playing lego!",
+        "count": 0,
+        "star_class": ""
     },
     {
         "id": 4,
         "author": "Tommy Tran",
         "title": "lego Minecraft",
-        "content": "Book #21165"
+        "content": "Book #21165",
+        "count": 0,
+        "star_class": ""
     },
     {
         "id": 5,
         "author": "Tran Dien Ngan",
         "title": "His exercise",
-        "content": "He bikes every morning!"
+        "content": "He bikes every morning!",
+        "count": 0,
+        "star_class": ""
     }
 ]

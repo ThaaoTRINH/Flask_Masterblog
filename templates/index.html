@@ -32,6 +32,8 @@
                         <form action="{{ url_for('update_form', post_id=post.id) }}">
                             <input type="submit" value="Update">
                         </form>
+                        <span class="number_count" id="{{post['author']}}_count"> {{post['count']}}</span>
+                        <a href="/star_update/{{post['author']}}" class="star {{post['star_class']}}">&starf;</a>
 
                     </div>
                 </li>

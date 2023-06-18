@@ -98,6 +98,21 @@ def update_post(post_id):
 
     return redirect(url_for('index'))
 
+@app.route('/star_update/<post_star>')
+def star_update(post_star):
+    with open('data.json', 'r') as file:
+        blog_posts = json.load(file)
+    for post in blog_posts:
+        if post['author'].lower() == post_star.lower():
+            post['count'] += 1
+            post['star_class'] = 'red'
+            break
+
+    with open('data.json', 'w') as file:
+        json.dump(blog_posts, file, indent=4)
+
+    return redirect(url_for('index'))
+
 
 if __name__ == '__main__':
-    app.run(host='127.0.0.1', port=5020, debug=True)
+    app.run(host='127.0.0.1', port=5025, debug=True)
